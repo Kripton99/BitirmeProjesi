@@ -1,0 +1,34 @@
+May 18 18:10:51.597 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+May 18 18:10:51.598 HYPERVISOR: Started on IP = 192.168.137.1, TCP port = 61104.
+May 18 18:10:51.883 HYPERVISOR: exec_cmd: hypervisor version 
+May 18 18:10:51.887 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\gsadn\GNS3\projects\final\project-files\dynamips 
+May 18 18:10:51.890 GENERAL: working_dir=C:\Users\gsadn\GNS3\projects\final\project-files\dynamips
+May 18 18:10:51.891 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\gsadn\GNS3\projects\final\project-files\dynamips\a28be654-e456-4966-a66e-f98f6bc1854e 
+May 18 18:10:51.891 GENERAL: working_dir=C:\Users\gsadn\GNS3\projects\final\project-files\dynamips\a28be654-e456-4966-a66e-f98f6bc1854e
+May 18 18:10:51.891 HYPERVISOR: exec_cmd: vm create R1 1 c3600 
+May 18 18:10:51.892 VM: VM R1 created.
+May 18 18:10:51.893 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+May 18 18:10:51.893 HYPERVISOR: exec_cmd: c3600 get_mac_addr R1 
+May 18 18:10:51.893 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/gsadn/GNS3/images/IOS/c3640-ik9o3s-mz.124-25b.image 
+May 18 18:10:51.894 HYPERVISOR: exec_cmd: vm get_status R1 
+May 18 18:10:51.894 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60696f6c 
+May 18 18:10:51.894 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+May 18 18:10:51.894 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+May 18 18:10:51.895 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+May 18 18:10:51.895 HYPERVISOR: exec_cmd: vm get_status R1 
+May 18 18:10:51.895 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 NM-1FE-TX 
+May 18 18:10:51.895 HYPERVISOR: exec_cmd: vm get_status R1 
+May 18 18:10:51.895 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+May 18 18:10:51.896 HYPERVISOR: exec_cmd: vm get_status R1 
+May 18 18:10:51.896 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 NM-1FE-TX 
+May 18 18:10:51.897 HYPERVISOR: exec_cmd: vm get_status R1 
+May 18 18:10:51.897 HYPERVISOR: exec_cmd: vm slot_add_binding R1 3 0 NM-16ESW 
+May 18 18:10:51.945 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/gsadn/GNS3/images/IOS/c3640-ik9o3s-mz.124-25b.image 
+May 18 18:10:53.473 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/gsadn/GNS3/images/IOS/c3640-ik9o3s-mz.124-25b.image 
+May 18 18:11:35.968 HYPERVISOR: exec_cmd: vm get_status R1 
+May 18 18:11:35.968 HYPERVISOR: exec_cmd: vm extract_config R1 
+May 18 18:11:35.968 HYPERVISOR: exec_cmd: vm delete R1 
+May 18 18:11:35.968 VM: VM R1 destroyed.
+May 18 18:11:35.969 HYPERVISOR: exec_cmd: hypervisor stop 
+May 18 18:11:36.430 HYPERVISOR: Stopped.
+May 18 18:11:36.430 GENERAL: reset done.
